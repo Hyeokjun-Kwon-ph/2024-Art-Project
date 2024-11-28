@@ -131,6 +131,6 @@ class Apple {
 
   shouldBeRemoved() {
     // 원점과의 거리가 지구 반지름의 0.7배보다 작아지면 true 반환 (사과가 지구 안에 있는 경우)
-    return this.position.dist(origin) < radiusThreshold || this.position.x > width + appleRadius || this.position.x < (-1) * appleRadius || this.position.y > height + appleRadius || this.position.y < (-1) * appleRadius
+    return this.position.dist(origin) < radiusThreshold //|| this.position.x > width + appleRadius || this.position.x < (-1) * appleRadius || this.position.y > height + appleRadius || this.position.y < (-1) * appleRadius
   }
 }
