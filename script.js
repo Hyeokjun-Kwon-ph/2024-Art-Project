@@ -1,7 +1,7 @@
 let apples = [];
 let currentApple = null;
 let origin;
-let gravitationalConstant = 10000;
+let gravitationalConstant = 75000;
 let atmosphereLayer;
 let radiusThreshold;
 let appleRadius
